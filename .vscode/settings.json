@@ -1,0 +1,15 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  }
+}

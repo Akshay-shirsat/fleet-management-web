@@ -1,0 +1,501 @@
+@font-face {
+  font-family: Hellix;
+  // src: url(~src/assets/fonts/Hellix-Regular.woff);
+  src: url(~src/assets/fonts/manrope/static/Manrope-Medium.ttf);
+  src: url(~src/assets/fonts/Hellix-Medium.woff);
+  src: url(~src/assets/fonts/poppins/Poppins-Regular.ttf);
+}
+
+//dashboard colorcode
+
+
+
+
+
+
+
+
+// declare a class which applies it
+body {
+  font-family: 'Hellix';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.q-btn {
+  font-size: 12px;
+}
+
+.q-field {
+  font-size: 12px;
+}
+
+.q-field__control {
+  height: 40px;
+}
+
+.q-field__marginal {
+  height: 40px;
+}
+
+.q-item {
+  min-height: 40px;
+}
+
+.q-field--auto-height .q-field__control,
+.q-field--auto-height .q-field__native {
+  min-height: 40px;
+}
+
+.q-breadcrumbs {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+span.q-breadcrumbs__el.q-link.flex.inline.items-center.relative-position.q-link--focusable {
+  color: grey;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.header-sub-title {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+  color: #7C8DB5;
+}
+
+
+// app global css in SCSS form
+.pagebg {
+  background: #FAFAFA;
+}
+
+.menusideborder {
+  border-left: 2px solid #CACACA !important;
+}
+
+.menu-title {
+  color: #5F6165;
+  ;
+}
+
+.sub-menu-title {
+  color: #8A8C91;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.footercls {
+  background: white;
+  width: 90%;
+  padding-left: 5%;
+  // left: 200px;
+  z-index: 1;
+}
+
+.footer_align1 {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.footer_align2 {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.header_block {
+  margin-bottom: 20px;
+}
+
+.filter_block {
+  text-align: right;
+}
+
+.pagelay {
+  margin-bottom: 5%;
+}
+
+.searchwidth {
+  border-radius: 8px;
+  display: inline-block;
+  // float: left;
+  width: 30%;
+  border: 1px solid #E0E3EA;
+  padding-bottom: 0px;
+  // height: 34px;
+  // line-height: 34px;
+  // background: #F7F7F7!important;
+}
+
+.filterbtn_right {
+  float: right;
+  text-align: right;
+}
+
+.q-field--filled .q-field__control {
+  border-radius: 8px;
+  background: #F7F7F7;
+}
+
+.q-field--dense .q-field__control,
+.q-field--dense .q-field__marginal {
+  height: 34px;
+}
+
+//SIDEBAR
+.text-title {
+  font-size: 20px;
+}
+
+.q-item__section--avatar {
+  min-width: 40px;
+}
+
+.bluecard {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.orangecard {
+  background-color: #bca7f5;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ambercard {
+  background-color: #f8cca4;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.redcard {
+  background-color: #f7c3c3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.greycard {
+  background-color: #c0bebe;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pinkcard {
+  // background-color: #D85AEC;#FFC82126
+  background-color: #E336FF26;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.defectcard{
+  // background-color: #D85AEC;#FFC82126
+  background-color: #FFC82126;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.complaincecard{
+  // background-color: #D85AEC;#FFC82126
+  background-color: #f0afaf;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.my-card {
+  border-radius: 20px;
+}
+.dashboardcard{
+min-height:70px;
+}
+.red-btn {
+  background: rgba(215, 70, 50, 1);
+}
+
+.size-36 {
+  font-size: 36px;
+}
+
+.size-20 {
+  font-size: 20px;
+}
+
+.page_card_height_title {
+  min-height: 50px;
+  font-size: 16px;
+}
+
+
+//TABLE CSS START
+
+.headbg thead tr {
+  background-color: #FBFBFB;
+}
+
+.themebtnborder.q-btn--outline:before {
+  border: 1px solid #D0D5DD;
+}
+
+//TABLE CSS END
+
+//TABS CSS START
+.tabsborder {
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+}
+
+// .vtabs .q-tab--active{
+//     background:#EFF5FF;
+// }
+// .vtabs .q-tab--active .q-tab__label{
+//     color:#000000;
+// }
+.vtabs .non-selectable.q-tab__label {
+  // color:rgba(0, 0, 0, 0.6)
+}
+
+.vtabs .q-tab--active .q-tab__indicator {
+  opacity: 1;
+}
+
+.q-tab--active .q-tab__indicator {
+  opacity: 0;
+}
+
+//horizontal tabs css
+.vtab-sidebar {
+  height: auto;
+
+}
+
+.horiz-tabsborder {
+  border: 1px solid #D9D9D9;
+  font-size: 12px;
+  margin-top: 15px;
+
+}
+
+.tabboderbottom {
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.htabs .q-tab--active {
+  border-bottom: 2px solid #367CFF;
+}
+
+.tabsdots {
+  padding: 4px;
+  min-height: 3px;
+  top: 5px !important;
+}
+
+.q-splitter--vertical>.q-splitter__separator {
+  width: 0px;
+}
+
+//TABS CSS END
+
+
+//ALL STATUS COLOR CSS START
+
+.status_green {
+  background-color: #2E7D32;
+}
+
+.status_orange {
+  background-color: #EF6C00;
+}
+
+.status_grey {
+  background-color: grey;
+}
+
+.btnactive {
+  background: rgba(243, 139, 65, 0.5) !important;
+  color: white
+}
+
+.btnactive_blue {
+  background: rgba(54, 124, 255, 0.58) !important;
+  color: white
+}
+
+.btnactive_grey {
+  background: rgba(0, 0, 0, 0.12) !important;
+  color: #00000061
+}
+
+.btndraft_pending {
+  background: #FF6E002B !important;
+  color: white
+}
+
+//ALL STATUS COLOR CSS END
+
+
+/*FORM CSS START*/
+.custom-label {
+  margin-top: -10px;
+  font-size: 12px;
+  background-color: white;
+  position: absolute;
+  margin-left: 1%;
+  padding: 0px 10px;
+  z-index: 1;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/*FORM CSS END*/
+
+
+.my-sticky-header-table {
+  /* height or max-height is important */
+  height: 310px;
+
+  .q-table__top,
+
+  thead tr:first-child th {
+    /* bg color is important for th; just specify one */
+    background-color: #00b4ff;
+    color: white
+  }
+
+  thead tr th {
+    position: sticky;
+    z-index: 1;
+  }
+
+  thead tr:first-child th {
+    top: 0;
+  }
+
+  /* this is when the loading indicator appears */
+  &.q-table--loading thead tr:last-child th {
+    /* height of all previous header rows */
+    top: 48px;
+  }
+
+  /* prevent scrolling behind sticky top row on focus */
+  tbody {
+    /* height of all previous header rows */
+    scroll-margin-top: 48px;
+
+    tr:nth-child(odd) {
+      background-color: none; // Change this to your desired odd row background color
+    }
+
+    tr:nth-child(even) {
+      background-color: #2884FF0D; // Change this to your desired even row background color
+    }
+  }
+
+  tbody tr:first-child {
+    background-color: transparent; // Excluding the first tbody row from styling
+  }
+}
+
+.bordered-column {
+  border: 1px solid #D9D9D9;
+}
+
+.bordered-row {
+
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.bordered-collapse {
+  border-collapse: collapse;
+}
+.parentcard{
+  display:flex;
+
+}
+
+
+
+
+
+
+
+
+//MEDIA QUERY
+@media only screen and (max-width: 768px) {
+  .searchwidth {
+    border-radius: 8px;
+    // display: inline-block;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+    border: 1px solid #E0E3EA;
+    padding-bottom: 0px;
+  }
+  .childcard{
+width:100%
+  }
+  .parentcard{
+    display:block;
+  }
+  .dashboardcard{
+    min-height:unset;
+
+    }
+  .footercls {
+    background: white;
+    padding-left: 0px;
+    width: 100%;
+    left: unset;
+    z-index: 1;
+  }
+
+  .footer_align1 {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .footer_align2 {
+    text-align: center;
+    padding-right: 0px;
+  }
+
+  .pagelay {
+    margin-bottom: 30%;
+  }
+
+  .filter_block {
+    text-align: center;
+  }
+
+  .filterbtn_right {
+    float: unset;
+  }
+
+  .page_card_height_title {
+    min-height: auto;
+  }
+
+  /*FORM CSS START*/
+  .custom-label {
+    margin-top: -10px;
+    background-color: white;
+    position: absolute;
+    margin-left: 4%;
+    font-size: 12px;
+    padding: 0px 10px;
+    z-index: 1;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  /*FORM CSS END*/
+
+  //tabs
+  // .vtab-sidebar{
+  //     height: auto;
+  // }
+  // .vtab-sidebar .q-splitter__panel.q-splitter__before {
+  //     width: 100%!important;
+  //     height: auto;
+  // }
+}
